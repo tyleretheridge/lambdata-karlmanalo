@@ -1,3 +1,5 @@
+# my_lambdata\my_mod.py
+
 def enlarge(n):
     return int(n) * 100
 
