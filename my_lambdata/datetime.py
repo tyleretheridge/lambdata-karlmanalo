@@ -2,8 +2,9 @@
 
 from pandas import to_datetime
 
+
 def split_date(X):
-    
+
     # Copy data frame to prevent setting with copy warnings
     X = X.copy()
 

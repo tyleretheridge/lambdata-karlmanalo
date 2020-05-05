@@ -2,6 +2,7 @@
 
 import numpy
 
+
 def iqr(X):
     # Finds midpoint of Q1
     Q1 = numpy.percentile(X, 25, interpolation='midpoint')
@@ -13,3 +14,4 @@ def iqr(X):
     iqr = Q3 - Q1
 
     return iqr
+    
