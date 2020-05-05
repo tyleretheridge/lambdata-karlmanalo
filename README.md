@@ -3,7 +3,7 @@
 ## Installation
 
 '''sh 
-pip install  #TODO: update with specific command
+pip install -i https://test.pypi.org/simple/ lambdata-karlmanalo==1.0
 '''
 
 ## Usage
