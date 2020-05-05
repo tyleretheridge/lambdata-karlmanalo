@@ -41,5 +41,3 @@ if __name__ == "__main__":
 
     df2 = add_state_names(df)
     print(df2.head())
-
-    add_state_names()
