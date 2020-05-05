@@ -14,9 +14,11 @@ class Auto():
     def advertise(self):
         print("BUY OUR", self.model)
 
-class Truck(Auto): # designates the Truck class should inherit from the Auto class
+class Truck(Auto): 
+    # designates the Truck class should inherit from the Auto class
     def __init__(self, make, model, year, color, num_wheels, bed_size):
-        super().__init__(make, model, year, color, num_wheels) # can invoke parent class methods via super()
+        super().__init__(make, model, year, color, num_wheels) 
+        # can invoke parent class methods via super()
         self.bed_size = bed_size
 
     # can overwrite parent class methods
@@ -45,7 +47,8 @@ if __name__ == "__main__":
     truck.advertise()
     print(truck.bed_size)
 
-    truck2 = Truck("Tesla", "Cybertuck", 2020, "Blue", 4, bed_size="10x10")
+    truck2 = Truck("Tesla", "Cybertuck", 2020, "Blue", 4, 
+                    bed_size="10x10")
     print(truck2).make
     print(truck2).model
     print(truck2).year

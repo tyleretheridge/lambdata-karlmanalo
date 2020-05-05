@@ -2,13 +2,14 @@
 
 ## Installation
 
-Fork this repo, then download your own copy of it. Then navigate into this directory from the command line.
-
-Then activate the virtual environment:
-
-'''sh
-pipenv install
-pipenv shell
+'''sh 
+pip install  #TODO: update with specific command
 '''
 
-## Usage	
+## Usage
+
+'''py
+from my_lambdata.my_mod import enlarge
+
+print(enlarge(9))
+'''
