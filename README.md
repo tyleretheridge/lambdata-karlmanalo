@@ -3,7 +3,7 @@
 ## Installation
 
 '''sh 
-pip install -i https://test.pypi.org/simple/ lambdata-karlmanalo==1.0
+pip install -i https://test.pypi.org/simple/ lambdata-karlmanalo==1.2
 '''
 
 ## Usage

@@ -9,7 +9,7 @@ def split_date(X):
     X = X.copy()
 
     # Converting date to datetime format
-    X['date'] = X['date'].to_datetime(infer_datetime_format=True)
+    X['date'] = to_datetime(X['date'], infer_datetime_format=True)
 
     # Extracting year, month and day from datetime
     X['year'] = X['date'].dt.year

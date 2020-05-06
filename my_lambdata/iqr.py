@@ -14,4 +14,3 @@ def iqr(X):
     iqr = Q3 - Q1
 
     return iqr
-    
