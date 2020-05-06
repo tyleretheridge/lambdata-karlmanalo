@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="lambdata-karlmanalo", # the name that you will install via pip
-    version="1.4",
+    version="1.5.1",
     author="Karl Manalo",
     author_email="karlmanalo@comcast.net",
     description="Practice package index",
